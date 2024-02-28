@@ -18,6 +18,7 @@ body {
   padding-left: 125px;
 }
 
+
 /********** HEADER STYLES START **********/
 .site-header {
   padding: 30px 0;
@@ -54,25 +55,95 @@ body {
   text-decoration: none;
 }
 
-.site-header__help-list{
+.site-header__help-list {
   display: flex;
   margin: 0;
   padding-left: 0;
   list-style-type: none;
 }
 
-.site-header__help-item{
+.site-header__help-item {
   display: flex;
   flex-direction: column;
   margin-left: 40px;
- }
+}
 
- .site-header__help-link {
+.site-header__help-link {
   color: #666666;
   font-size: 15px;
   font-weight: 400;
   padding-bottom: 6px;
   text-decoration: none;
- }
+}
 
 /********** HEADER STYLES END **********/
+
+/********** MAIN STYLES START **********/
+.site-main {
+  width: 100%;
+
+}
+
+/********** HERO STYLES START **********/
+.site-hero {
+  width: 100%;
+}
+
+.site-hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-hero__start {
+  width: 100%;
+  max-width: 490px;
+  height: 291px;
+}
+
+.site-hero__start-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #000000;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 90px;
+
+}
+
+.site-hero__desc1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.site-hero__img {
+  width: 2px;
+  height: 100px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+
+.site-hero__start-desc {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #777777;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+.site-hero__start-btn {
+  padding: 12px 39px;
+  background-color: #ea625c;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-hero__end {}
+
+/********** HERO STYLES END **********/
+/********** MAIN STYLES END **********/
